@@ -5,7 +5,14 @@ window.onload = function () {
     'click',
     function() {
       var person = prompt("Please enter your email");
+
+      if(person != null) {}
+        document.getElementById("button-yellow").innerHTML =
+        "Thanks for your email!";
+      }
     });
+
+
 }
 
 
